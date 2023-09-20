@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Header } from "./components/header";
 import { ContactForm } from "./components/contact-form";
+import { Footer } from "./components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <Header />
         {children}
         <ContactForm />
+        <Footer />
       </body>
     </html>
   );

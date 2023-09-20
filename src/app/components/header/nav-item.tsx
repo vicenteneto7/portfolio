@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utis"
+import { cn } from "@/app/lib/utis"
 import Link from "next/link"
 import { usePathname } from 'next/navigation'
 

@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utis";
+import { cn } from "@/app/lib/utis";
 
 type SectionTitleProps = {
   title: string;
