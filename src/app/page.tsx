@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import { HeroSection } from './components/pages/hero-section'
+import { HeroSectionHome } from './components/pages/hero-section-home'
 
 export default function Home() {
   return (
     <>
-    <HeroSection />
+    <HeroSectionHome />
     </>
   )
 }
