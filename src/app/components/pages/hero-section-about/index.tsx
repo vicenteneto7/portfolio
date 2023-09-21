@@ -42,7 +42,7 @@ export const HeroSectionAbout = () => {
             sempre aberto a novas oportunidades e desafios.
           </p>
 
-          <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[21.25rem]">
+          <div className="flex flex-wrap gap-x-1.5 sm:gap-x-2 gap-y-3 lg:max-w-[21.25rem]">
             {Array.from({ length: 6 }).map((_, index) => (
               <TechBadge name="Next.js" />
             ))}
@@ -71,9 +71,10 @@ export const HeroSectionAbout = () => {
         <Image
           width={420}
           height={404}
-          src="/images/perfil.jpg"
+          src="/images/profile.jpg"
           alt="Foto de perfil do Vicente"
           className="w-[18.75rem] h-[18.75rem] lg:w-[26.25rem] lg:h-[25.25rem] mb-6 lg:mb-0 shadow-2xl rounded-lg object-cover"
+          unoptimized
         />
       </section>
   );
