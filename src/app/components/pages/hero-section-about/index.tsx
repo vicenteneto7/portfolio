@@ -71,7 +71,7 @@ export const HeroSectionAbout = () => {
         <Image
           width={420}
           height={404}
-          src="/images/profile.jpg"
+          src="/images/logo.png"
           alt="Foto de perfil do Vicente"
           className="w-[18.75rem] h-[18.75rem] lg:w-[26.25rem] lg:h-[25.25rem] mb-6 lg:mb-0 shadow-2xl rounded-lg object-cover"
           unoptimized

@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-
 import { cn } from "@/app/lib/utis"
 
 type HorizontalDividerProps = {

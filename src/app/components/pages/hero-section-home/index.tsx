@@ -1,6 +1,6 @@
 export const HeroSectionHome = () => {
   return (
-    <section className="container flex justify-center items-center py-32">
+    <section className="container flex justify-center items-center py-24 sm:py-32">
         <div className="flex justify-center items-center flex-col p-2 gap-7">
       <p className="flex uppercase text-xs tracking-widest text-gray-600">
         VAMOS CONSTRUIR ALGO INCRÍVEL JUNTOS

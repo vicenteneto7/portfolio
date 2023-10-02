@@ -1,7 +1,9 @@
+import { PageIntroduction } from "../components/pages/page-introduction-projects";
+
 export default function Projects() {
-    return(
-        <>
-        <h1>oi</h1>
-        </>
-    )
+  return (
+    <>
+      <PageIntroduction />
+    </>
+  );
 }
