@@ -4,7 +4,7 @@ import { SectionTitle } from "../../section-title";
 
 export const PageIntroduction = () => {
   return (
-    <section className="w-full h-[450px] lg:h-[630px] flex flex-col items-center px-2">
+    <section className="w-full h-[450px] mt-0 sm:mt-12 lg:h-[630px] flex flex-col items-center px-2">
       <SectionTitle
         subtitle="projetos"
         title="Meus Projetos"
