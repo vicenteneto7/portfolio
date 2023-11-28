@@ -29,7 +29,7 @@ export const ExperienceItem = () => {
                 </a>
                 <h4 className="text-gray-400">Desenvolvedor Full Stack</h4>
                 <span className="text-gray-600">
-                    out 2022 * momento * (5 meses)
+                    jun 2023 * momento * (5 meses)
                 </span>
                 <p className="text-gray-400">
                     Desenvolvimento e manutenção de interfaces utilizando React, Next, Tailwind, TypeScript e Figma
@@ -38,11 +38,11 @@ export const ExperienceItem = () => {
             <p className="text-gray-400 text-sm mb-3 mt-6 font-semibold">Competências</p>
             <div className="flex gap-2 gap-y-3 flex-wrap lg:max-w-[350px] mb-8">
                 <TechBadge name="Next.js"/>
-                <TechBadge name="Next.js"/>
-                <TechBadge name="Next.js"/>
-                <TechBadge name="Next.js"/>
-                <TechBadge name="Next.js"/>
-                <TechBadge name="Next.js"/>
+                <TechBadge name="TypeScript"/>
+                <TechBadge name="ReactJS"/>
+                <TechBadge name="NodeJS"/>
+                <TechBadge name="Styled-components"/>
+                <TechBadge name="TailwindCSS"/>
             </div>
         </div>
     </div>

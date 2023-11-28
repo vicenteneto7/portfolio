@@ -12,9 +12,6 @@ export const WorkExperience = () => {
             </div>
             <div className="flex flex-col">
             <ExperienceItem />
-            <ExperienceItem />
-            <ExperienceItem />
-            <ExperienceItem />
             </div>
         </section>
     )
