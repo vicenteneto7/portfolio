@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Image from "next/image";
 import { TechBadge } from "../../tech-badge";
@@ -32,6 +32,7 @@ export const HeroSectionAbout = () => {
       contactSection.scrollIntoView({ behavior: "smooth" });
     }
   };
+
   return (
     <section className="container flex items-start py-8 sm:py-24 justify-between flex-col-reverse lg:flex-row">
       <div className="w-full lg:max-w-[33.125rem]">
@@ -51,10 +52,17 @@ export const HeroSectionAbout = () => {
         </p>
 
         <div className="flex flex-wrap gap-x-1.5 sm:gap-x-2 gap-y-3 lg:max-w-[21.25rem]">
-          {Array.from({ length: 6 }).map((_, index) => (
-            <TechBadge name="Next.js" />
+          {Array.from({ length: 1 }).map((_, index) => (
+            <>
+              <TechBadge key={index} name="Next.js" />
+              <TechBadge key={index} name="ReactJS" />
+              <TechBadge key={index} name="TypeScript" />
+              <TechBadge key={index} name="JavaScript" />
+              <TechBadge key={index} name="NodeJS" />
+            </>
           ))}
         </div>
+
         <div className="mt-6 lg:mt-10 flex sm:items-center sm:gap-5 flex-col sm:flex-row">
           <Button
             onClick={handleContact}
@@ -80,7 +88,7 @@ export const HeroSectionAbout = () => {
       <Image
         width={420}
         height={404}
-        src="/images/logo.png"
+        src="/images/secondprofile.png"
         alt="Foto de perfil do Vicente"
         className="w-[18.75rem] h-[18.75rem] lg:w-[26.25rem] lg:h-[25.25rem] mb-6 lg:mb-0 shadow-2xl rounded-lg object-cover"
         unoptimized

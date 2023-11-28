@@ -3,7 +3,8 @@ import { HighlightedProjects } from "../components/pages/highlighted-projects";
 import { KnowTechs } from "../components/pages/know-techs";
 import { WorkExperience } from "../components/pages/work-experience";
 
-export default function Projects() {
+export default async function Projects() {
+    
     return(
         <>
         <HeroSectionAbout />

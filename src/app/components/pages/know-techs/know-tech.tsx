@@ -1,7 +1,7 @@
 import { getRelativeTimeString } from "@/app/utils/get-relative-time";
 import { ReactNode } from "react";
 
-type KnowTechProps = {
+export type KnowTechProps = {
   tech: {
     icon: ReactNode;
     name: string;

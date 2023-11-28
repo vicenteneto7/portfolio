@@ -33,12 +33,9 @@ export const ProjectCard = () => {
         </p>
         <div className="flex flex-wrap mb-8 gap-x-2 gap-y-3 lg:max-[350px]:">
           <TechBadge name="TypeScript" />
-          <TechBadge name="JavaScript" />
           <TechBadge name="React.js" />
           <TechBadge name="Next.js" />
           <TechBadge name="Tilwind CSS" />
-          <TechBadge name="Node.js" />
-          <TechBadge name="React Native" />
         </div>
         <Link href="/projects/book-wise">
           Ver projeto

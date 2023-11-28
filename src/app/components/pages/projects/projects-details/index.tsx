@@ -29,11 +29,8 @@ export const ProjectDetails = () => {
       </p>
       <div className=" w-full max-w-[330px] flex flex-wrap gap-2 items-center justify-center">
         <TechBadge name="Next.js" />
-        <TechBadge name="Next.js" />
-        <TechBadge name="Next.js" />
-        <TechBadge name="Next.js" />
-        <TechBadge name="Next.js" />
-        <TechBadge name="Next.js" />
+        <TechBadge name="TypeScript" />
+        <TechBadge name="TailwindCSS" />
       </div>
       <div className="my-6 sm:my-12 gap-2 sm:gap-4 flex flex-col sm:flex-row items-center justify-center">
       <a href="https://github.com" target="_blank">
