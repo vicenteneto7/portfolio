@@ -14,15 +14,19 @@ export const ProjectsCard = () => {
         />
       </div>
       <div className="flex flex-1 flex-col p-8">
-        <strong className="font-medium text-gray-50/90 group-hover:text-emerald-500 transition-all">Next.js</strong>
+        <strong className="font-medium text-gray-50/90 group-hover:text-emerald-500 transition-all">
+          Next.js
+        </strong>
         <p className="mt-2 text-gray-400 line-clamp-4">
-          Next.js é uma estrutura da web de desenvolvimento front-end React de
-          código aberto criada por Vercel que permite funcionalidades como
-          renderização do lado do servidor e geração de sites estáticos para
-          aplicativos da web baseados em React.
+          Bloco de Notas Online é uma ferramenta para criar anotações online.
+          Nesta ferramenta você cria suas anotações com facilidade, sem precisar
+          fazer login ou criar alguma conta. Para usar essa aplicação é muito
+          fácil, digite ou cole alguma nota no campo de texto fornecido pela
+          ferramenta localizado no retângulo azul e ela será salva
+          automaticamente.
         </p>
         <span className="text-gray-300 text-sm font-medium block mt-auto truncate">
-          Next.js, Next Auth, React, React Native, TypeScript, MongoDB
+          Next.js, React, TypeScript e TailwindCSS
         </span>
       </div>
     </div>

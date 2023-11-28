@@ -17,19 +17,14 @@ export const ProjectCard = () => {
       </div>
       <div>
         <h3 className="flex items-center gap-3 font-medium text-lg text-gray-500">
-          <Image
-            src="/images/logo.png"
-            width={20}
-            height={20}
-            alt=""
-          />
+          <Image src="/images/logo.png" width={20} height={20} alt="" />
           To do List
         </h3>
         <p className="text-gray-400 my-6">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed suscipit
-          exercitationem perferendis sapiente. Adipisci doloremque nesciunt,
-          atque nulla quam fugiat pariatur, rerum nostrum eos, quo dolores vel
-          deleniti ipsa accusantium.
+          O Bloco de Notas Online é uma ferramenta para criar anotações online.
+          Nesta ferramenta você cria suas anotações com facilidade, sem precisar
+          fazer login ou criar alguma conta. Para usar essa aplicação é muito
+          fácil...
         </p>
         <div className="flex flex-wrap mb-8 gap-x-2 gap-y-3 lg:max-[350px]:">
           <TechBadge name="TypeScript" />
