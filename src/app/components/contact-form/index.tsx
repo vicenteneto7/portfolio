@@ -6,6 +6,8 @@ import { SectionTitle } from "../section-title";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { z } from 'zod'
 import { zodResolver } from "@hookform/resolvers/zod";
+import axios from "axios";
+import toast from "react-hot-toast";
 
 const ContactFormSchema = z.object({
   name: z.string().min(3).max(50),
@@ -17,12 +19,18 @@ type ContactFormData = z.infer<typeof ContactFormSchema>
 
 export const ContactForm = () => {
 
-  const { handleSubmit, register } = useForm<ContactFormData>({
+  const { handleSubmit, reset, formState:{isSubmitting}, register } = useForm<ContactFormData>({
     resolver: zodResolver(ContactFormSchema)
   })
 
-  const onSubmit = (data: ContactFormData)  => {
-    console.log(data)
+  const onSubmit = async (data: ContactFormData)  => {
+    try {
+      await axios.post('/api/contact', data)
+      toast.success('Mensagem enviada com sucesso!')
+      reset()
+    } catch (error) {
+      toast.error('Ocorreu um erro ao enviar a mensagem. Tente novamente.')
+    }
   }
 
   return (
@@ -53,7 +61,7 @@ export const ContactForm = () => {
             maxLength={500}
             {...register('message')}
           />
-          <Button className="mx-auto w-[47%] hover:bg-gray-800 mt-6 shadow-button text-white bg-gray-900">
+          <Button disabled={isSubmitting} className="mx-auto w-[47%] hover:bg-gray-800 mt-6 shadow-button text-white bg-gray-900">
             Enviar
             <HiArrowNarrowRight size={18} />
           </Button>

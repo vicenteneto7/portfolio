@@ -15,7 +15,7 @@ export const ProjectsCard = () => {
       </div>
       <div className="flex flex-1 flex-col p-8">
         <strong className="font-medium text-gray-50/90 group-hover:text-emerald-500 transition-all">
-          Next.js
+          Bloco de Notas
         </strong>
         <p className="mt-2 text-gray-400 line-clamp-4">
           Bloco de Notas Online é uma ferramenta para criar anotações online.

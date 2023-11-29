@@ -39,6 +39,7 @@ export const ExperienceItem = () => {
             <div className="flex gap-2 gap-y-3 flex-wrap lg:max-w-[350px] mb-8">
                 <TechBadge name="Next.js"/>
                 <TechBadge name="TypeScript"/>
+                <TechBadge name="JavaScript"/>
                 <TechBadge name="ReactJS"/>
                 <TechBadge name="NodeJS"/>
                 <TechBadge name="Styled-components"/>

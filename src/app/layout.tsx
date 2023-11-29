@@ -5,6 +5,7 @@ import { Header } from "./components/header";
 import { ContactForm } from "./components/contact-form";
 import { Footer } from "./components/footer";
 import { BackToTop } from "./components/back-to-top";
+import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={inter.className}>
+        <Toaster />
         <Header />
         {children}
         <ContactForm />

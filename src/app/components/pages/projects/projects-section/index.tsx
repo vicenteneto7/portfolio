@@ -2,14 +2,9 @@ import Image from "next/image";
 
 const section = [
   {
-    title: "Login",
-    image:
-      "/images/next.png",
-  },
-  {
     title: "Home",
     image:
-    "/images/next.png",
+    "/images/project-todoList.png",
   },
 ];
 
