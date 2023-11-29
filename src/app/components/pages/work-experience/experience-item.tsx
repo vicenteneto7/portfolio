@@ -32,7 +32,7 @@ export const ExperienceItem = () => {
                     jun 2023 * momento * (5 meses)
                 </span>
                 <p className="text-gray-400">
-                    Desenvolvimento e manutenção de interfaces utilizando React, Next, Tailwind, TypeScript e Figma
+                    Desenvolvimento e manutenção de interfaces utilizando ReactJS, Node, Next, Tailwind, JavaScript e TypeScript 
                 </p>
             </div>
             <p className="text-gray-400 text-sm mb-3 mt-6 font-semibold">Competências</p>
